@@ -1,0 +1,9 @@
+POST http://localhost:5162/auth/register
+Content-Type: application/json
+
+{
+    "firstName":"burak",
+    "lastName": "yilmaz",
+    "email": "myEmail",
+    "password": "pwd"
+}
